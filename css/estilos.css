@@ -33,11 +33,6 @@
     text-align: justify;
 }
 
-.carrito {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 400px;
-}
-
 .usuarioyclave {
     height: 250px;
 }
@@ -81,36 +76,131 @@
 }
 
 .bg-lav {
-    background-color: #ebeae6;
+    background-color:#ebeae6;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    background-color: white;
+    font-weight: bold;
+}
+
+a:active {
+    color: white;
+    background-color:blue;
+    font-weight: bold;
+    font-style: oblique;
 }
 
 .btn-primary {
-   background-color: black;
+   background-color:#ebeae6;
    border-color: black;
 }
 
-.list-group-item-action {
+.btn.btn-primary {
     color: black;
     background-color: #ebeae6;
-    border-color: #ebeae6;
+    border-color: black;
 }
 
-.list-group-item.active {
-    color: black;
-    background-color: #ebeae6;
-    border-color: #ebeae6;
+.btn.btn-primary:hover {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-weight: bold;   
+}
+
+.btn.btn-primary:active {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-style: oblique;   
+}
+
+.nav-link:active {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-style: oblique; 
 }
 
 .btn-outline-success {
     color: black;
     background-color: #ebeae6;
-    border-color: #ebeae6;  
+    border-color: black;  
+}
+
+.btn.btn-outline-success {
+    color: black;
+    background-color: #ebeae6;
+    border-color: black;
+}
+
+.btn.btn-outline-success:hover {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-weight: bold; 
+}
+
+.btn.btn-outline-success:active {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-style: oblique;
+}
+
+.btn-outline-success:hover {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-weight: bold;  
 }
 
 .btn:first-child:hover {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-weight: bold;
+}
+
+#boton-vaciar.btn-primary {
     color: black;
-    background-color: #ebeae6;
-    border-color: #ebeae6;
+    background-color:#ebeae6;
+    border-color: black;
+}
+
+#boton-vaciar.btn-primary:hover {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-weight: bold;
+}
+
+#boton-vaciar.btn-primary:active {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.btn:first-child:active {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.btn:first-child {
+    color: black;
+    background-color:#ebeae6;
+    border-color: black;
 }
 
 /*contacto.html versión Laptop*/
