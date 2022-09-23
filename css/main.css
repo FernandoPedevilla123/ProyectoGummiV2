@@ -1,8 +1,4 @@
 @charset "UTF-8";
-/*operaciones*/
-.header {
-  width: 500px; }
-
 /*Configuraciones generales*/
 .nav-link:active {
   color: white;
