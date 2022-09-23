@@ -7,7 +7,7 @@
 @import "contacto";
 @import "carrito";       
    
-   /*Configuraciones generales*/ 
+   /*Configuraciones generales
     .nav-link:active {
         color: white;
         background-color: blue;
@@ -104,6 +104,88 @@ a:active #boton-vaciar.btn-primary:active .btn:first-child:active {
 a:visited {
   text-decoration: none;
 }
+*/
+
+.btn.btn-primary:hover {
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  font-weight: bold;   
+}
+
+.btn.btn-outline-success:hover {
+  @extend .btn.btn-primary:hover;
+}
+
+.btn-outline-success:hover {
+  @extend .btn.btn-primary:hover;
+}
+
+.btn:first-child:hover {
+  @extend .btn.btn-primary:hover;
+}
+
+#boton-vaciar.btn-primary:hover {
+  @extend .btn.btn-primary:hover;
+}
+
+#boton-vaciar.btn-primary:active {
+  @extend .btn.btn-primary:hover;
+  font-style: oblique;
+}
+
+#boton-vaciar.btn-primary:active .btn:first-child:active {
+  @extend .btn.btn-primary:hover;
+  font-style: oblique;
+}
+
+.nav-link:active {
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  font-style: oblique; 
+}
+
+a:active {
+  @extend .nav-link:active;
+  font-weight: bold;
+}
+
+.btn.btn-primary:active .btn.btn-outline-success:active {
+  @extend .nav-link:active;
+}
+
+.btn.btn-primary {
+  color: black;
+  background-color: #ebeae6;
+  border-color: black;
+}
+
+.btn-outline-success .btn.btn-outline-success #boton-vaciar.btn-primary .btn:first-child  {
+  @extend .btn.btn-primary;
+}
+
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  background-color: white;
+  font-weight: bold;
+}
+
+.btn-primary {
+ background-color:#ebeae6;
+ border-color: black;
+}
+
+.bg-lav {
+  background-color:#ebeae6;
+}
+
+
 
 /*contacto.html versión Laptop*/
 

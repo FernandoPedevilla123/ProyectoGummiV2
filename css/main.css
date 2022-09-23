@@ -1,77 +1,142 @@
 @charset "UTF-8";
-/*Configuraciones generales*/
-.nav-link:active {
+/*Configuraciones generales
+    .nav-link:active {
+        color: white;
+        background-color: blue;
+        border-color: blue;
+        font-style: oblique; 
+    }
+
+    .contacto__formulario--titulo .contacto__formas--titulo .contacto__formas--otras .datospersonales__registrate {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        font-size: small; 
+    }
+    
+    .contacto__formas--otras .usuarioyclave__login .datospersonales__registrate {
+        color: darkgray;
+    }
+ 
+    .contacto__formulario--titulo .contacto__formas--titulo a:visited .btn.btn-primary .btn-outline-success .btn.btn-outline-success #boton-vaciar.btn-primary .btn:first-child {
+      color: black;
+    }
+
+    .usuarioyclave__login--color .contacto__formulario--color .datospersonales__registrate--color {
+      background-color: rgb(223, 236, 255);
+  }
+
+  
+  .bg-lav .btn-primary .btn.btn-primary .btn-outline-success .btn.btn-outline-success #boton-vaciar.btn-primary .btn:first-child {
+    background-color:#ebeae6;
+  }
+  
+  .contacto__formulario--titulo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contacto__formas--titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+
+.contacto__formas--otras {
+    margin-bottom: 200px;
+}
+
+.usuarioyclave__login .datospersonales__registrate{
+    margin-bottom: 150px;
+}
+
+.usuarioyclave .datospersonales {
+  height: 250px;
+}
+
+.datospersonales {
+  padding-top: 40px;
+}
+
+a:active .btn.btn-primary:hover .btn.btn-primary:active .nav-link:active .btn.btn-outline-success:hover .btn.btn-outline-success:active .btn-outline-success:hover .btn:first-child:hover #boton-vaciar.btn-primary:hover #boton-vaciar.btn-primary:active .btn:first-child:active {
+  color: white;
+}
+
+a:active #boton-vaciar.btn-primary:active .btn:first-child:active {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.btn.btn-primary:hover .btn.btn-primary:active .nav-link:active .btn.btn-outline-success:hover .btn.btn-outline-success:active .btn-outline-success:hover .btn:first-child:hover #boton-vaciar.btn-primary:hover #boton-vaciar.btn-primary:active .btn:first-child:active {
+  background-color: blue;
+  border-color: $bordecolorboton;
+}
+
+.btn.btn-primary:hover .btn.btn-outline-success:hover .btn-outline-success:hover .btn:first-child:hover #boton-vaciar.btn-primary:hover {
+  font-weight: bold;   
+}
+
+.btn.btn-primary:active .nav-link:active .btn.btn-outline-success:active {
+  font-style: oblique;   
+}
+
+
+.btn-primary .btn.btn-primary .btn-outline-success .btn.btn-outline-success .btn:first-child {
+  border-color: black;
+}
+
+.login {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+
+#destacados {
+  text-align:center;
+}
+
+a:visited {
+  text-decoration: none;
+}
+*/
+.btn.btn-primary:hover, .btn.btn-outline-success:hover, .btn-outline-success:hover, .btn:first-child:hover, #boton-vaciar.btn-primary:hover, #boton-vaciar.btn-primary:active, #boton-vaciar.btn-primary:active .btn:first-child:active, .btn-outline-success .btn.btn-outline-success #boton-vaciar.btn-primary .btn:hover:first-child {
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  font-weight: bold; }
+
+#boton-vaciar.btn-primary:active {
+  font-style: oblique; }
+
+#boton-vaciar.btn-primary:active .btn:first-child:active {
+  font-style: oblique; }
+
+.nav-link:active, a:active, .btn.btn-primary:active .btn.btn-outline-success:active, .btn-outline-success .btn.btn-outline-success #boton-vaciar.btn-primary .btn:active:first-child .btn.btn-outline-success:active {
   color: white;
   background-color: blue;
   border-color: blue;
   font-style: oblique; }
 
-.contacto__formulario--titulo .contacto__formas--titulo .contacto__formas--otras .datospersonales__registrate {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: left;
-  font-size: small; }
-
-.contacto__formas--otras .usuarioyclave__login .datospersonales__registrate {
-  color: darkgray; }
-
-.contacto__formulario--titulo .contacto__formas--titulo a:visited .btn.btn-primary .btn-outline-success .btn.btn-outline-success #boton-vaciar.btn-primary .btn:first-child {
-  color: black; }
-
-.usuarioyclave__login--color .contacto__formulario--color .datospersonales__registrate--color {
-  background-color: #dfecff; }
-
-.bg-lav .btn-primary .btn.btn-primary .btn-outline-success .btn.btn-outline-success #boton-vaciar.btn-primary .btn:first-child {
-  background-color: #ebeae6; }
-
-.contacto__formulario--titulo {
-  margin-top: 5px;
-  margin-bottom: 5px; }
-
-.contacto__formas--titulo {
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-.contacto__formas--otras {
-  margin-bottom: 200px; }
-
-.usuarioyclave__login .datospersonales__registrate {
-  margin-bottom: 150px; }
-
-.usuarioyclave .datospersonales {
-  height: 250px; }
-
-.datospersonales {
-  padding-top: 40px; }
-
-a:active .btn.btn-primary:hover .btn.btn-primary:active .nav-link:active .btn.btn-outline-success:hover .btn.btn-outline-success:active .btn-outline-success:hover .btn:first-child:hover #boton-vaciar.btn-primary:hover #boton-vaciar.btn-primary:active .btn:first-child:active {
-  color: white; }
-
-a:active #boton-vaciar.btn-primary:active .btn:first-child:active {
-  font-weight: bold;
-  font-style: oblique; }
-
-.btn.btn-primary:hover .btn.btn-primary:active .nav-link:active .btn.btn-outline-success:hover .btn.btn-outline-success:active .btn-outline-success:hover .btn:first-child:hover #boton-vaciar.btn-primary:hover #boton-vaciar.btn-primary:active .btn:first-child:active {
-  background-color: blue;
-  border-color: blue; }
-
-.btn.btn-primary:hover .btn.btn-outline-success:hover .btn-outline-success:hover .btn:first-child:hover #boton-vaciar.btn-primary:hover {
+a:active {
   font-weight: bold; }
 
-.btn.btn-primary:active .nav-link:active .btn.btn-outline-success:active {
-  font-style: oblique; }
-
-.btn-primary .btn.btn-primary .btn-outline-success .btn.btn-outline-success .btn:first-child {
+.btn.btn-primary, .btn-outline-success .btn.btn-outline-success #boton-vaciar.btn-primary .btn:first-child {
+  color: black;
+  background-color: #ebeae6;
   border-color: black; }
 
-.login {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: justify; }
-
-#destacados {
-  text-align: center; }
-
 a:visited {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  background-color: white;
+  font-weight: bold; }
+
+.btn-primary {
+  background-color: #ebeae6;
+  border-color: black; }
+
+.bg-lav {
+  background-color: #ebeae6; }
 
 /*contacto.html versión Laptop*/
 @media screen and (min-width: 769px) {
